@@ -1,10 +1,5 @@
 package pile
 
-type Pile struct {
-	a []int
-	b []int
-}
-
 func Sa(pile *Pile) {
 	if len(pile.a) < 2 {
 		return
